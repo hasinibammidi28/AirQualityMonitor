@@ -1,0 +1,28 @@
+AIR QUALITY MONITOR REPORT
+==========================
+
+Area: Kukatpally
+AQI: 87
+Level: MODERATE
+Time: 2026-10-11T15:01:23.325515700
+
+Area: Ameerpet
+AQI: 245
+Level: SEVERE
+Time: 2026-10-11T15:01:23.324518100
+
+Area: Gachibowli
+AQI: 166
+Level: POOR
+Time: 2026-10-11T15:01:23.325515700
+
+Area: Miyapur
+AQI: 258
+Level: SEVERE
+Time: 2026-10-11T15:01:23.325515700
+
+Area: Secunderabad
+AQI: 214
+Level: SEVERE
+Time: 2026-10-11T15:01:23.325515700
+
