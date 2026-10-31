@@ -1,0 +1,27 @@
+﻿AIR QUALITY MONITOR REPORT
+==========================
+
+Area: Miyapur
+AQI: 224
+Status: SEVERE
+--------------------------
+Area: Secunderabad
+AQI: 222
+Status: SEVERE
+--------------------------
+Area: Ameerpet
+AQI: 198
+Status: POOR
+--------------------------
+Area: Kukatpally
+AQI: 123
+Status: POOR
+--------------------------
+Area: Gachibowli
+AQI: 78
+Status: MODERATE
+--------------------------
+
+WORST AIR QUALITY AREA
+Area: Miyapur
+AQI: 224

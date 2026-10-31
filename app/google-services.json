@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156348924370",
+    "project_id": "airqualitymonitor-a8df9",
+    "storage_bucket": "airqualitymonitor-a8df9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156348924370:android:e386c9a9f8d2e18c57480b",
+        "android_client_info": {
+          "package_name": "com.example.airqualitymonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARCBhh35-ZRy_xdRWzMz-UdJZclNvCfnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

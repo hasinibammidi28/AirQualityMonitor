@@ -1,0 +1,22 @@
+$projectFolder = $PSScriptRoot
+$destination = Join-Path $projectFolder "air_quality_report.txt"
+
+Write-Host "Air Quality Monitor report copier started."
+Write-Host "Destination: $destination"
+
+while ($true) {
+    try {
+        $report = & adb exec-out run-as com.example.airqualitymonitor cat files/air_quality_report.txt 2>$null
+
+        if ($LASTEXITCODE -eq 0 -and $report) {
+            $content = $report -join "`n"
+            Set-Content -Path $destination -Value $content -Encoding utf8
+            Write-Host "Report updated: $(Get-Date -Format 'HH:mm:ss')"
+        }
+    }
+    catch {
+        # Retry on the next check.
+    }
+
+    Start-Sleep -Seconds 2
+}

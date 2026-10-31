@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EAF5EF"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/air_quality_logo"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        android:contentDescription="Air Quality Monitoring System Logo"/>
+
+</LinearLayout>

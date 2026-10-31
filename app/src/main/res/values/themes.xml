@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main application theme -->
+    <style name="Theme.AirQualityMonitor"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorPrimaryDark">#1B5E20</item>
+        <item name="colorAccent">#4CAF50</item>
+
+        <item name="android:statusBarColor">#EAF5EF</item>
+        <item name="android:navigationBarColor">#EAF5EF</item>
+
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.AirQualityMonitor.Splash"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">#EAF5EF</item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/transparent_icon
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.AirQualityMonitor
+        </item>
+
+    </style>
+
+</resources>
